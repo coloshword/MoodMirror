@@ -8,7 +8,10 @@ const Body = () => {
     const [showTips, setShowTips] = useState(true);
     return (
         <div className="main dark">
-            <Tip/>
+            {
+                showTips ? <Tip 
+                                setShowTips={setShowTips}/> : <div> hello world </div>
+            }
         </div>
     )
 }
