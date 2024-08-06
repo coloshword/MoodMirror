@@ -1,0 +1,60 @@
+.tip-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--blue-200);
+    font-family: 'Roboto', sans-serif;
+}
+
+.mood-mirror-text {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(260deg, #3d67ff 0%, #9773ff 50%, #efceff 80%), #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+
+.tip-bar-text {
+    font-size: 1rem;
+    color: white;
+    white-space: pre-line;
+}
+
+.tip-bar-bottom {
+    width: 20rem;    
+}
+
+.next-icon {
+    color: hsl(219, 38%, 59%);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.next-icon:hover {
+    color: hsl(220, 44%, 75%);
+}
+
+.next-button {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid hsl(219, 38%, 59%);
+    cursor: pointer; 
+}
+
+.next-button:hover {
+    border: 2px solid hsl(220, 44%, 75%);
+}
+
+.tip-outer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
